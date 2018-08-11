@@ -1,0 +1,70 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "text": "Do you have cough?",
+      "answers": [
+        {
+          "code": "1a",
+          "text": "A: More than 2 weeks"
+        },
+        {
+          "code": "1b",
+          "text": "B: Blood in sputum with cough"
+        },
+        {
+          "code": "1c",
+          "text": "C: Both A and B"
+        },
+        {
+          "code": "1d",
+          "text": "D: No"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "text": "Any symptoms from the following?",
+      "answers": [
+        {
+          "code": "2a",
+          "text": "A: Recent weight loss / Reduction on Food Intake"
+        },
+        {
+          "code": "2b",
+          "text": "B: Pain in some body parts"
+        },
+        {
+          "code": "2c",
+          "text": "C: Both A and B"
+        },
+        {
+          "code": "2d",
+          "text": "D: None"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "text": "Do you have fever?",
+      "answers": [
+        {
+          "code": "3a",
+          "text": "A: Fever / rise in body-temperature in Evening / Fatigue in evening"
+        },
+        {
+          "code": "3b",
+          "text": "B: Night Sweats"
+        },
+        {
+          "code": "3c",
+          "text": "C: Yes Both A and B"
+        },
+        {
+          "code": "3d",
+          "text": "D: No"
+        }
+      ]
+    }
+  ]
+}

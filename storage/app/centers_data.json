@@ -1,0 +1,87 @@
+[
+    {
+        "Name of Hospital": "LRS Hospital",
+        "Area": "Qila Rai Pithora, New Delhi, Delhi 110030",
+        "Lat": "28.529539",
+        "lng": "77.188882"
+    },
+    {
+        "Name of Hospital": "Delhi Govt. Dispensary, Kapashera",
+        "Area": "759, Mandir Wali Gali, Kapas Hera Extension, Kapashera, New Delhi, Delhi 110037",
+        "Lat": "28.525349",
+        "lng": "77.08361"
+    },
+    {
+        "Name of Hospital": "Delhi Govt. Dispensary, Rajokri",
+        "Area": "Rajokri Village, Rajokri, New Delhi, Delhi 110038",
+        "Lat": "28.513226",
+        "lng": "77.10697"
+    },
+    {
+        "Name of Hospital": "Delhi Govt. Dispensary, Madangir",
+        "Area": "sector-4, SPG Quarters, Doctor Ambedkar Nagar, Madangir, New Delhi, Delhi 110017",
+        "Lat": "28.524136",
+        "lng": "77.229747"
+    },
+    {
+        "Name of Hospital": "Delhi Govt. Dispensary, Sangam Vihar",
+        "Area": "Gali Number 12, Block G, Block H, Sangam Vihar, New Delhi, Delhi 110044",
+        "Lat": "28.503189",
+        "lng": "77.252521"
+    },
+    {
+        "Name of Hospital": "DOT Center, AIIMS",
+        "Area": "AIIMS Campus, Ansari Nagar East, Ansari Nagar East, New Delhi, Delhi 110029",
+        "Lat": "28.565752",
+        "lng": "77.208318"
+    },
+    {
+        "Name of Hospital": "DOT Center, Safdarganj",
+        "Area": "Safdarjung Campus, Safdarjung, New Delhi, Delhi 110029",
+        "Lat": "28.568362",
+        "lng": "77.205587"
+    },
+    {
+        "Name of Hospital": "Delhi Govt. Dispensary, Ber Sarai",
+        "Area": "Opp: Old JNU Campus, Ber Sarai, New Delhi, Delhi 110016",
+        "Lat": "28.554025",
+        "lng": "77.182933"
+    },
+    {
+        "Name of Hospital": "Delhi Govt. Dispensary, Mahipalpur",
+        "Area": "Choupal Rd, Block A, Mahipalpur Village, Mahipalpur, New Delhi, Delhi 110037",
+        "Lat": "28.550909",
+        "lng": "77.130298"
+    },
+
+    {
+        "Name of Hospital": "Delhi Govt. Dispensary, Khanpur",
+        "Area": "B23, Khanpur Colony, Block B, JJ Colony, Khanpur, New Delhi, Delhi 110062",
+        "Lat": "28.519759",
+        "lng": "77.225225"
+    },
+    {
+        "Name of Hospital": "Delhi Govt. Dispensary, Dakshin Puri",
+        "Area": "J-557, Maharishi Balmiki Rd, Dr.Ambedkar Nagar, Block J, Sector 5, Dakshinpuri, New Delhi, Delhi 110062",
+        "Lat": "28.52014",
+        "lng": "77.24025"
+    },
+    {
+        "Name of Hospital": "Delhi Govt. Dispensary, Malviya Nagar",
+        "Area": "Nil, Nil 5, Malviya Nagar, Block D, Malviya Nagar, New Delhi, Delhi 110017",
+        "Lat": "28.534495",
+        "lng": "77.212218"
+    },
+    {
+        "Name of Hospital": "Delhi Govt. Dispensary, Jamia Nagar",
+        "Area": "Batla House, Jamia Nagar, Okhla, Sailing Club, Jamia Nagar, Okhla, New Delhi, Delhi 110025",
+        "Lat": "28.567484",
+        "lng": "77.285774"
+    },
+    {
+        "Name of Hospital": "Delhi Govt. Dispensary, Jaunapur",
+        "Area": "Junapur Village, Juanapur, New Delhi, Delhi 110047",
+        "Lat": "28.463642",
+        "lng": "77.151882"
+    }
+]

@@ -1,0 +1,22 @@
+{
+  "id": "3",
+  "text": "Do you have/ Had any of these?",
+  "answers": [
+    {
+      "code": "3a",
+      "text": "A: Diabetes / Sugar Patient"
+    },
+    {
+      "code": "3b",
+      "text": "B: HIV Positive"
+    },
+    {
+      "code": "3c",
+      "text": "C: Cancer"
+    },
+    {
+      "code": "3d",
+      "text": "D: Kidney Disease"
+    }
+  ]
+}

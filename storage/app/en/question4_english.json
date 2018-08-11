@@ -1,0 +1,18 @@
+{
+  "id": "3",
+  "text": "Have you ever been in contact with a person with active TB disease?",
+  "answers": [
+    {
+      "code": "3a",
+      "text": "A: Yes, Family member / friend / neighbour"
+    },
+    {
+      "code": "3b",
+      "text": "B: Yes, co-wroker / colleague"
+    },
+    {
+      "code": "3c",
+      "text": "C: No"
+    }
+  ]
+}
