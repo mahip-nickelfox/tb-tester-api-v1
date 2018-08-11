@@ -65,46 +65,6 @@
           "text": "D: No"
         }
       ]
-    },
-    {
-      "id": "4",
-      "text": "Have you ever been in contact with a person with active TB disease?",
-      "answers": [
-        {
-          "code": "4a",
-          "text": "A: Yes, Family member / friend / neighbour"
-        },
-        {
-          "code": "4b",
-          "text": "B: Yes, co-wroker / colleague"
-        },
-        {
-          "code": "4c",
-          "text": "C: No"
-        }
-      ]
-    },
-    {
-      "id": "5",
-      "text": "Do you have/ Had any of these?",
-      "answers": [
-        {
-          "code": "5a",
-          "text": "A: Diabetes / Sugar Patient"
-        },
-        {
-          "code": "5b",
-          "text": "B: HIV Positive"
-        },
-        {
-          "code": "5c",
-          "text": "C: Cancer"
-        },
-        {
-          "code": "5d",
-          "text": "D: Kidney Disease"
-        }
-      ]
     }
   ]
 }

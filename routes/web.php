@@ -12,7 +12,7 @@ $router->get('/', function () use ($router) {
 });
 
 $router->group(['prefix' => 'v1/', 'middleware' => 'CorsMiddleware'], function () use ($router) {
-	$router->get('hospitals', 'HospitalController@getHospitals');
-	$router->get('questions/{lang}', 'QuestionsController@getAllQuestions');
-	$router->get('questions/{lang}/{index}', 'QuestionsController@getQuestions');
+	$router->get('hospitals[/{lang}]', 'HospitalController@getHospitals');
+	$router->get('questions[/{lang}]', 'QuestionsController@getQuestions');
+	$router->get('extra/questions[/{lang}]', 'QuestionsController@getExtraQuestions');
 });

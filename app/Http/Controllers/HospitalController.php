@@ -13,10 +13,10 @@ class HospitalController extends Controller
         
     }
 
-    public function getHospitals(Request $request)
+    public function getHospitals($lang = 'en')
     {
-        $contents = Storage::disk('local')->get('centers_data.json');
+        $contents = Storage::disk('local')->get($lang . '/centers_data.json');
         return $contents;
     }
-    
+
 }

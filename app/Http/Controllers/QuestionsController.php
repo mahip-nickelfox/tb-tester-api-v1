@@ -17,7 +17,7 @@ class QuestionsController extends Controller
         
     }
 
-    public function getAllQuestions($lang)
+    public function getQuestions($lang = 'en')
     {
     	if(!in_array(strtolower($lang), $this->langs)) {
     		return [
@@ -30,7 +30,7 @@ class QuestionsController extends Controller
         return $contents;
     }
 
-    public function getQuestions($lang, $index)
+    public function getExtraQuestions($lang = 'en')
     {
     	if(!in_array(strtolower($lang), $this->langs)) {
     		return [
@@ -39,54 +39,8 @@ class QuestionsController extends Controller
     	}
 
     	$lang = strtolower($lang);
-    	$contents = Storage::disk('local')->get($lang . '/questions.json');
-        $contents = json_decode($contents, true);
-        $questions = isset($contents['questions']) ? $contents['questions'] : [];
-
-        $totalQuestions = (count($questions) - 1);
-
-        $indexes = explode(":", $index);
-        $start = 0;
-        $end = 0;
-
-        if(count($indexes) == 2) {
-        	$start = (int)$indexes[0];
-        	if(!$start) {
-        		$start = 0;
-        	}
-        	$end = (int)$indexes[1];
-        	if(!$end) {
-        		$end = 0;
-        	}
-        } else if(count($indexes) == 1) {
-        	$start = (int)$indexes[0];
-        	if(!$start) {
-        		$start = 0;
-        	}
-        	$end = (int)$indexes[0];
-			if(!$end) {
-        		$end = 0;
-        	}
-        }
-
-        if($start < 0) {
-        	$start = 0;
-        } else if($start > $totalQuestions) {
-        	$start = $totalQuestions;
-        }
-
-        if($end < 0) {
-        	$end = 0;
-        } else if($end > $totalQuestions) {
-        	$end = $totalQuestions;
-        }
-
-        $data = [];
-        for($i=$start; $i<=$end; $i++) {
-        	$data[] = $questions[$i];
-        }
-
-        return $data;
+    	$contents = Storage::disk('local')->get($lang . '/extra_questions.json');
+        return $contents;
     }
     
 }
