@@ -15,4 +15,5 @@ $router->group(['prefix' => 'v1/', 'middleware' => 'CorsMiddleware'], function (
 	$router->get('hospitals[/{lang}]', 'HospitalController@getHospitals');
 	$router->get('questions[/{lang}]', 'QuestionsController@getQuestions');
 	$router->get('extra/questions[/{lang}]', 'QuestionsController@getExtraQuestions');
+	$router->get('results', 'ResultController@getResult');
 });
