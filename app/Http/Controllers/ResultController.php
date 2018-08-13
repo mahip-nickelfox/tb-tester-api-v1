@@ -20,9 +20,7 @@ class ResultController extends Controller
     public function getResult()
     {
     	$contents = Storage::disk('local')->get('results.json');
-        return [
-            'results'   =>  json_decode($contents, true)
-        ];
+        return json_decode($contents, true);
     }
     
 }
