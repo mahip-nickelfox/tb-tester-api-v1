@@ -21,7 +21,7 @@ class ResultController extends Controller
     {
     	$contents = Storage::disk('local')->get('results.json');
         return [
-            'results'   =>  $contents
+            'results'   =>  json_decode($contents, true)
         ];
     }
     
