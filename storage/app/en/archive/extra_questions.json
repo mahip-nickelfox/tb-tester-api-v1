@@ -20,7 +20,7 @@
     },
     {
       "id": "5",
-      "text": "Do you have any of these Diseases?",
+      "text": "Do you have/ Had any of these?",
       "answers": [
         {
           "code": "5a",
@@ -38,10 +38,6 @@
           "code": "5d",
           "text": "D: Kidney Disease"
         }
-        {
-          "code": "5e",
-          "text": "E: No"
-        } 
       ]
     }
   ]

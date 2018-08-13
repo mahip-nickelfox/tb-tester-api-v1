@@ -1,6 +1,6 @@
 {
   "id": "3",
-  "text": "Do you have any of these Diseases?",
+  "text": "Do you have/ Had any of these?",
   "answers": [
     {
       "code": "3a",
@@ -18,9 +18,5 @@
       "code": "3d",
       "text": "D: Kidney Disease"
     }
-    {
-      "code": "3e",
-      "text": "E: No"
-    }	
   ]
 }
