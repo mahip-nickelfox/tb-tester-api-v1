@@ -10,6 +10,9 @@ $router->get('/', function () use ($router) {
     	'version'	=>	'1.0'
     ];
 });
+$router->get('/tb-tester', function () use ($router) {
+    return redirect('https://play.google.com/store/apps/details?id=com.nickelfox.icmr_demo');
+});
 
 $router->group(['prefix' => 'v1/', 'middleware' => 'CorsMiddleware'], function () use ($router) {
 	$router->get('hospitals[/{lang}]', 'HospitalController@getHospitals');
